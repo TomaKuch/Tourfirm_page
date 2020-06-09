@@ -1,0 +1,103 @@
+a.navbar-brand{
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 8px;
+}
+.mynav,.hi-div,.block,.endblock{
+    border-bottom: solid lightgray 1px;
+}
+.text-justify {
+    text-align: justify;
+}
+.txt-b{
+    font-size: 18px;
+}
+.txt-s{
+    font-size: 16px;
+}
+.txt-b,.txt-s{
+    font-family: Luminari;
+}
+.hiddenblock{
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+    color:white;
+    padding:50px;
+    display:none;
+}
+.galery_item:hover .hiddenblock{
+    display: block;
+}
+.h-img{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+.f-img{
+    display: inline-block;
+}
+.item{
+    margin:-15px;
+}
+.row-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+#myCarousel{
+    margin: -15px 10px 10px 10px;
+}
+ul{
+	position: relative;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.mycont{
+    flex-direction:row;
+    align-items: stretch;
+}
+
+.f1,.f2{
+    border-bottom: solid lightgray 1px;
+    border-right: solid lightgray 1px;
+}
+.f3{
+    border-bottom: solid lightgray 1px;
+}
+.f4,.f5{
+    border-right: solid lightgray 1px;
+}
+@media (max-width: 990px){
+    .f1,.f3{
+        border-bottom: solid lightgray 1px;
+        border-right: solid lightgray 1px;
+        border-left: none;
+        border-top: none;
+    }
+    .f2,.f4{
+        border-bottom: solid lightgray 1px;
+        border-right: none;
+        border-left: none;
+        border-top: none;
+    }
+    .f5{
+        border-bottom:none;
+        border-right: solid lightgray 1px;
+        border-left: none;
+        border-top: none;
+    }
+    .f6{
+        border: none;
+    }
+}
+
+@media (max-width: 770px){
+    .f1,.f2,.f3,.f4,.f5,.f6{
+        border-bottom: solid lightgray 1px;
+        border-right: none;
+        border-left: none;
+        border-top: none;
+    }
+}
